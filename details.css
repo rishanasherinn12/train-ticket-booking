@@ -1,0 +1,44 @@
+.line{
+    border: none;
+    border-bottom: 2px solid #626060;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    
+}
+
+div{
+    text-align: center;
+    
+}
+.btn{
+    
+    background-color: skyblue;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+button:hover{
+    background: #218838;
+}
+body{
+        background-image: url(https://assets.architecturaldigest.in/photos/63873323ede7689cfd6d7c34/16:9/w_2560%2Cc_limit/ankith-choudhary-cuSxLpxuARA-unsplash.png);
+        
+}
+header nav{
+    background-color: blue;
+    text-align: center;
+}
+header nav a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+.formbox{
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 40px;
+    
+}

@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://assets.architecturaldigest.in/photos/63873323ede7689cfd6d7c34/16:9/w_2560%2Cc_limit/ankith-choudhary-cuSxLpxuARA-unsplash.png);
+    text-align: center;
+}
+main{
+    color: brown;
+}
+.btn{
+    color: white;
+    background-color: skyblue;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    
+}
+button:hover{
+    background: #218838;
+}
+
+header nav{
+    background-color: blue;
+    text-align: center;
+}
+header nav a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+.seats{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.seats label:hover{
+    background: skyblue;
+}
+.seats label{
+    display: block;
+    text-align: center;
+    background: #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.seats input{
+    display:none;
+}
+
